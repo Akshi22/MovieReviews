@@ -1,5 +1,10 @@
 #Used to create a ML application as a package
 from setuptools import setup, find_packages #find_packages finds all the packages in the entire ML library
+from typing import List
+
+
+def get_requirements():
+  
 
 #setup is the metadata information about the entire project
 setup(
