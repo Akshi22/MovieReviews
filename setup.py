@@ -8,7 +8,7 @@ setup(
   author = 'Akshi',
   author_email = 'akshitha.3022@gmail.com',
   packages = find_packages(),
-  install_requires = ['pandas','numpy','seaborn'],
+  install_requires = ['pandas','numpy','seaborn'] #but we might require a hundered packages. Soo...see the above func #get_requirements('requirements.txt')
   
   
 
